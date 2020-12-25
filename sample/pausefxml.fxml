@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #272727;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pausecontroller">
+    <children>
+        <Circle fill="#fae100" layoutX="648.0" layoutY="188.0" onMouseClicked="#exitfunction" radius="82.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#32dbf0" layoutX="619.0" layoutY="620.0" onMouseClicked="#newgamefunction" radius="154.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#ff9300" layoutX="341.0" layoutY="493.0" onMouseClicked="#savefunction" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#ff0181" layoutX="241.0" layoutY="188.0" onMouseClicked="#resumefunction" radius="136.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#6cff00" layoutX="121.0" layoutY="675.0" onMouseClicked="#helpfunction" radius="82.0" stroke="BLACK" strokeType="INSIDE" />
+        <ImageView layoutX="275.0" layoutY="471.0" onMouseClicked="#savefunction">
+            <image>
+                <Image url="@Resources2/save.png" />
+            </image>
+        </ImageView>
+        <ImageView layoutX="594.0" layoutY="165.0" onMouseClicked="#exitfunction">
+            <image>
+                <Image url="@Resources2/exitsmall.png" />
+            </image>
+        </ImageView>
+        <ImageView layoutX="58.0" layoutY="643.0" onMouseClicked="#helpfunction">
+            <image>
+                <Image url="@Resources2/help.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="42.0" fitWidth="200.0" layoutX="141.0" layoutY="167.0" onMouseClicked="#resumefunction">
+            <image>
+                <Image url="@Resources2/resume.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="33.0" fitWidth="200.0" layoutX="519.0" layoutY="604.0" onMouseClicked="#newgamefunction">
+            <image>
+                <Image url="@Resources2/newgamesmall.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

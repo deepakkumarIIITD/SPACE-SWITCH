@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #272727;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.leaderboardcontroller">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="300.0" layoutY="738.0" onMouseClicked="#backtomain" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="738.0">
+         <image>
+            <Image url="@Resources7/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="196.0" layoutY="4.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="196.0" AnchorPane.topAnchor="4.0">
+         <image>
+            <Image url="@Resources8/gold.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="350.0" fitWidth="350.0" layoutX="467.0" layoutY="377.0" AnchorPane.bottomAnchor="73.0" AnchorPane.rightAnchor="-20.0" AnchorPane.topAnchor="377.0">
+         <image>
+            <Image url="@Resources8/silver.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="350.0" fitWidth="350.0" layoutX="-56.0" layoutY="377.0" AnchorPane.bottomAnchor="73.0" AnchorPane.leftAnchor="-20.0" AnchorPane.topAnchor="377.0">
+         <image>
+            <Image url="@Resources8/bronze.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="third" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="453.0" prefHeight="184.0" prefWidth="143.0" style="-fx-font-weight: bold;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="first" alignment="CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="91.0" prefHeight="210.0" prefWidth="167.0" style="-fx-font-weight: bold;" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="second" alignment="CENTER" contentDisplay="CENTER" layoutX="569.0" layoutY="454.0" prefHeight="184.0" prefWidth="143.0" style="-fx-font-weight: bold;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

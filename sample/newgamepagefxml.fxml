@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #272727;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.newgamepagecontroller">
+    <children>
+        <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="301.0" layoutY="675.0" onMouseClicked="#donefunction" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="301.0" AnchorPane.rightAnchor="299.0" AnchorPane.topAnchor="675.0">
+            <image>
+                <Image url="@Resources6/done.png" />
+            </image>
+        </ImageView>
+        <ImageView layoutX="348.0" layoutY="148.0">
+            <image>
+                <Image url="@Resources6/name.png" />
+            </image>
+        </ImageView>
+        <ImageView layoutX="363.0" layoutY="377.0">
+            <image>
+                <Image url="@Resources6/age.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="namefeild" layoutX="201.0" layoutY="238.0" prefHeight="60.0" prefWidth="600.0" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="199.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+        <Spinner fx:id="agefeild" initialValue="10" layoutX="301.0" layoutY="463.0" max="100" min="1" prefHeight="60.0" prefWidth="60.0" AnchorPane.leftAnchor="301.0" AnchorPane.rightAnchor="299.0">
+        </Spinner>
+    </children>
+</AnchorPane>

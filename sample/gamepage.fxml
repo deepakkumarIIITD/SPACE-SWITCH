@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="canvas" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#clicktostart" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #272727;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gamepagecontroller">
+    <children>
+        <ImageView fx:id="pausebutton" layoutX="710.0" layoutY="46.0" onMouseClicked="#pauseclicked">
+            <image>
+                <Image url="@Resources4/pausebutton.gif" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="logo" fitHeight="500.0" fitWidth="42.0" layoutX="22.0" layoutY="286.0">
+            <image>
+                <Image url="@Resources4/verticalspaceswitch.gif" />
+            </image>
+        </ImageView>
+        <Label fx:id="Stars" layoutX="111.0" layoutY="119.0" text="0" textFill="WHITE">
+            <font>
+                <Font size="33.0" />
+            </font>
+        </Label>
+      <Label fx:id="starlable" layoutX="68.0" layoutY="48.0" text="STARS" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label fx:id="clk" layoutX="213.0" layoutY="470.0" text="CLICK ANYWHERE &#10;TO START" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

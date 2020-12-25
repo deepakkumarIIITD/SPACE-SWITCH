@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #272727;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="1200.0" layoutX="14.0" layoutY="100.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="-200.0" AnchorPane.rightAnchor="-200.0" AnchorPane.topAnchor="100.0">
+            <image>
+                <Image url="@Resources/menu.gif" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="14.0" layoutY="631.0" onMouseClicked="#loadpresentgame" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="50.0">
+            <image>
+                <Image url="@Resources/loadgame.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="544.0" layoutY="631.0" onMouseClicked="#exitthegame" AnchorPane.bottomAnchor="129.0" AnchorPane.rightAnchor="50.0">
+            <image>
+                <Image url="@Resources/exit.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="282.0" layoutY="631.0" onMouseClicked="#newgametobemade" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="300.0">
+            <image>
+                <Image url="@Resources/newgame.png" />
+            </image>
+        </ImageView>
+      <ImageView layoutX="357.0" layoutY="50.0" AnchorPane.leftAnchor="375.0" AnchorPane.rightAnchor="375.0" AnchorPane.topAnchor="50.0">
+         <image>
+            <Image url="@Resources/trophpy.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="50.0" layoutX="357.0" layoutY="50.0" onMouseClicked="#leaderboard" strokeType="INSIDE" width="50.0" AnchorPane.leftAnchor="375.0" AnchorPane.rightAnchor="375.0">
+         <stroke>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </stroke>
+      </Rectangle>
+    </children>
+</AnchorPane>

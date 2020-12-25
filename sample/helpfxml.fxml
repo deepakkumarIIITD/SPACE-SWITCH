@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #272727;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.helpcontroller">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="292.0" layoutY="698.0" onMouseClicked="#backfunction" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0">
+         <image>
+            <Image url="@Resources7/back.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="98.0" layoutY="95.0" text=". PASS THROUGH SAME COLOURED &#10;OBSTACLES ONLY.&#10;&#10;. COLLECT AS MANY STARS AS POSSIBLE.&#10;&#10;. TRY TO TOP THE RANKINGS &#10;AND GET THE GOLDEN TROPHY.&#10;&#10;. ENJOY YOUR GAME" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
